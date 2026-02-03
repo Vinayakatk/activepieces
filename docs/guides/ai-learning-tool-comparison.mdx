@@ -377,22 +377,83 @@ matters for beginners"
 
 ## 6. Pricing Considerations for Learners
 
+### Detailed Pricing Tiers
+
 | Plan | Claude | Cursor | Codex |
 |------|--------|--------|-------|
-| **Free Tier** | Limited messages, no PDF | Limited AI requests | Included with ChatGPT Pro |
-| **Pro Plan** | $20/mo - Full features | $20/mo - Full features | $200/mo (ChatGPT Pro) |
-| **Best Value for Learning** | Claude Pro for books/concepts | Cursor Pro for code projects | Only if heavy GitHub use |
+| **Free** | Limited messages | 2000 completions, 50 slow premium | With ChatGPT Plus |
+| **Pro** | $20/mo | $20/mo | - |
+| **Higher Tier** | $100/mo (Max) | $60/mo (Ultra) | $200/mo (ChatGPT Pro) |
+| **Enterprise** | $200/mo (Max Team) | Custom | - |
 
-**Budget Recommendation**: If you can only afford one:
-- Heavy on theory/books → **Claude Pro** ($20/mo)
-- Heavy on code/building → **Cursor Pro** ($20/mo)
-- Both equally important → Start with Cursor (can still explain concepts)
-- Need autonomous codebase analysis → Consider **Codex** (but expensive at $200/mo)
+### Critical: Usage Limits & Resets
 
-**Note on Codex Pricing**: Codex requires ChatGPT Pro subscription ($200/mo), making it significantly more expensive. For most learners, Claude + Cursor combination ($40/mo total) provides better value. Consider Codex only if you:
-- Work extensively with large GitHub codebases
-- Need autonomous, background analysis tasks
-- Value async codebase exploration highly
+#### Claude ($100/mo Max Plan)
+- **Usage resets every ~5 hours** during high demand
+- You may hit "usage limit reached" and need to wait
+- Limits vary based on model (Opus vs Sonnet)
+- Can be frustrating during intensive learning sessions
+- Pro ($20) has stricter limits; Max ($100) has higher but still capped
+
+#### Cursor ($60/mo Ultra Plan)  
+- **No time-based reset** - uses a monthly quota system
+- 500 "fast" premium requests per month (Ultra)
+- Unlimited "slow" requests (longer queue times)
+- More predictable - you know your monthly budget
+- Can continue working (slowly) even after fast requests exhausted
+- Pro ($20) gives 500 fast requests; Ultra ($60) gives more + priority
+
+#### Key Difference
+
+| Aspect | Claude Max ($100) | Cursor Ultra ($60) |
+|--------|-------------------|-------------------|
+| **Reset Type** | Time-based (hours) | Monthly quota |
+| **When Limited** | Wait hours for reset | Switch to slow queue |
+| **Predictability** | Less predictable | More predictable |
+| **Heavy Usage** | May hit walls frequently | Can always continue (slower) |
+| **Cost per Month** | $100 | $60 |
+
+### Which Model for Heavy Learners?
+
+**If you learn in long, intensive sessions:**
+- **Cursor Ultra ($60)** is better - no mid-session walls
+- You can always continue with slow requests
+- More cost-effective at $60 vs $100
+
+**If you learn in short bursts throughout the day:**
+- **Claude Max ($100)** works fine - limits reset between sessions
+- Better for conceptual Q&A style learning
+
+**Budget Recommendation**:
+
+| Your Situation | Recommendation | Monthly Cost |
+|----------------|----------------|--------------|
+| Budget-conscious learner | Claude Pro + Cursor Pro | $40 |
+| Heavy codebase exploration | Cursor Ultra | $60 |
+| Heavy book/PDF learning | Claude Max | $100 |
+| Balanced intensive use | Cursor Ultra + Claude Pro | $80 |
+| Maximum capability | Claude Max + Cursor Ultra | $160 |
+
+### Value Analysis
+
+**Cursor Ultra ($60/mo) Advantages:**
+- No frustrating time-based resets
+- Can always continue working (slow queue fallback)
+- Better for marathon coding/learning sessions
+- Includes all Cursor IDE features
+- $40 cheaper than Claude Max
+
+**Claude Max ($100/mo) Advantages:**
+- Superior PDF/book analysis
+- Better conceptual explanations
+- Socratic teaching style
+- Study plan creation
+- But: Usage resets can interrupt flow
+
+**Recommendation for Learning**: If you must choose one higher tier:
+- **Cursor Ultra ($60)** for codebase learning - better value, no reset frustration
+- Keep Claude at Pro ($20) for occasional book/concept questions
+- Total: $80/mo with no mid-session interruptions
 
 ---
 
@@ -471,7 +532,10 @@ For learning complex systems like Kubernetes, Claude provides theoretical founda
 | Conceptual explanations | ✅ Excellent | ✅ Good | ⚠️ Functional |
 | Study plan creation | ✅ Excellent | ⚠️ Basic | ❌ None |
 | Socratic teaching | ✅ Excellent | ⚠️ Basic | ❌ None |
-| Cost efficiency | ✅ $20/mo | ✅ $20/mo | ❌ $200/mo |
+| **Usage limit handling** | ⚠️ Time-based reset | ✅ Slow queue fallback | ⚠️ Task limits |
+| **Marathon sessions** | ⚠️ May hit walls | ✅ Always continue | ⚠️ Async only |
+| Pro tier cost | $20/mo | $20/mo | - |
+| Higher tier cost | $100/mo | $60/mo | $200/mo |
 
 ---
 
